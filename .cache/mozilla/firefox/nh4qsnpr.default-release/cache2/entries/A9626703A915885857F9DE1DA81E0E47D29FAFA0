@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="hNs7DXrTySP_X-0P_AC0WulAXvUwgSXEmgfcO2r79dw" />
+
+  <!-- Twitter and Facebook OpenGraph Metadata-->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@code" />
+
+      <meta name="description" content="Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.  Download Visual Studio Code to experience a redefined code editor,  optimized for building and debugging modern web and cloud applications." />
+    <!-- Twitter and Facebook OpenGraph Metadata-->
+    <meta property="og:title" content="Download Visual Studio Code - Mac, Linux, Windows"/>
+    <meta property="og:description" content="Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.  Download Visual Studio Code to experience a redefined code editor,  optimized for building and debugging modern web and cloud applications."/>
+    <meta property="og:image" content="https://code.visualstudio.com/opengraphimg/opengraph-home.png"/>
+    <meta property="og:url" content="https://code.visualstudio.com/Download"/>
+    <link href="https://code.visualstudio.com/download" rel="canonical" />
+
+
+  <link rel="shortcut icon" href="/favicon.ico" sizes="128x128" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <title>Download Visual Studio Code - Mac, Linux, Windows</title>
+
+  <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/dist/style.css">
+
+  <script type="text/javascript" src="https://js.monitor.azure.com/scripts/c/ms.analytics-web-3.min.js"></script>
+  <script>
+  window.appInsights = new oneDS.ApplicationInsights();
+  window.appInsights.initialize({
+    instrumentationKey: "1a3eb3104447440391ad5f2a6ee06a0a-62879566-bc58-4741-9650-302bf2af703f-7103",
+    webAnalyticsConfiguration:{ // Web Analytics Plugin configuration
+        urlCollectQuery: true,
+        urlCollectHash: true,
+        autoCapture: {
+          scroll: true,
+          pageView: true,
+          onLoad: true,
+          onUnload: true,
+          click: true,
+          resize: true,
+          jsError: true
+        }
+    }
+  }, []);
+  </script>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  </script>
+  <link rel="alternate" type="application/atom+xml" title="RSS Feed for code.visualstudio.com" href="/feed.xml" />
+</head>
+
+<body>
+  <!-- EU Cookie Compliance JS -->
+  <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+
+  <div id="main">
+          <div class="navbar-fixed-container">
+              <div class="navbar navbar-inverse navbar-fixed-top ">
+                  <div id='cookie-banner'></div>        <nav role="navigation" aria-label="Top Level">
+                      <div class="container">
+                          <div class="nav navbar-header">
+                              <a role="button" id="skip-to-content" class="link-button" href="#main-content">Skip to content<i>&nbsp;</i><span class="glyphicon glyphicon-menu-down"></span></a>
+                              <a class="navbar-brand" id="navbar-brand" href="/">Visual Studio Code</a>
+                              <button type="button" class="navbar-toggle" role="navigation" data-toggle="collapse" data-target=".navbar-collapse" aria-label="Toggle Navigation Menu">
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                                  <span class="icon-bar"></span>
+                              </button>
+                          </div>
+                          <div class="navbar-collapse collapse" role="navigation">
+                              <ul class="nav navbar-nav navbar-left">
+                                  <li ><a id="nav-docs" href="/docs">Docs</a></li>
+                                  <li ><a id="nav-updates" href="/updates">Updates</a></li>
+                                  <li ><a id="nav-blogs" href="/blogs">Blog</a></li>
+                                  <li ><a id="nav-extend" href="/api">API</a></li>
+                                  <li><a href="https://marketplace.visualstudio.com/VSCode" target="_blank" id="nav-extensions">Extensions</a></li>
+                                  <li ><a id="nav-faqs" href="/docs/supporting/faq">FAQ</a></li>
+                                  <li ><a id="nav-learn" href="/learn">Learn</a></li>
+                                  <li class='search visible-xs visible-sm'
+                                      ><a href="/Search">Search</a></li>
+                              </ul>
+          
+                              <ul class="nav navbar-nav navbar-right" role="presentation">
+                                  <!-- Floating search icon -->
+                                  <li>
+                                      <a href="/Search" title="Search" class="btn search-btn" id="nav-search">
+                                          <img class="search-icon" src="/assets/icons/search.svg" width="16px" height="16px" alt="Search"/>
+                                          <img class="search-icon-inverted" src="/assets/icons/search_dark.svg" width="16px" height="16px" alt="Search" />
+                                      </a>
+                                  </li>
+                                  <!-- Actual search icon -->
+                                  <li class="search" role="presentation">
+                                      <form class="nav-search search-form" role="search" aria-label="Search">
+                                          <div class="input-group" role="presentation">
+                                              <input type="text" name="q" class="search-box form-control" placeholder="Search Docs" aria-label="Search text"/>
+                                              <span class="input-group-btn">
+                                                  <button tabindex="0" class="btn" type="submit" aria-label="Search">
+                                                          <img class="search-icon" src="/assets/icons/search.svg" width="16px" height="16px" alt="Search" />
+                                                          <img class="search-icon-inverted" src="/assets/icons/search_dark.svg" width="16px" height="16px" alt="Search" />
+                                                  </button>
+                                              </span>
+                                          </div>
+                                      </form>                        </li>
+                                  <!-- this was hiden in the home and download page, keeping it for now -->
+                                  <li><a class="link-button" href="/Download" id="nav-download">
+                                      <img class="download-icon" src="/assets/icons/download.svg" width="16px" height="16px" alt="Download VS Code"/>
+                                      <img class="download-icon-inverted" src="/assets/icons/download-black.svg" width="16px" height="16px" alt="Download VS Code" />
+                                      <span>Download</span>
+                                  </a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </nav>
+              </div>
+          </div>          <div class="updates-banner  ">
+              <div class="container">
+                  <p class="message"><a href="/updates" id="banner-link-updates">Version 1.80</a> is now available! Read about the new features and fixes from June.</p>
+              </div>
+              <div tabindex="0" role="button" title="Dismiss this update" class="dismiss-btn" id="banner-dismiss-btn"><span class="sr-only">Dismiss this update</span><span aria-hidden="true" class="glyph-icon"></span></div>
+          </div>      <div role="main" id="main-content">
+        <div class="body-content downloads">
+    
+    <div class="container">
+        <div class="row">
+            <div class="container text-center">
+                <h1>Download Visual Studio Code</h1>
+                <p class="lead">
+                   Free and built on open source.  Integrated Git, debugging and extensions.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="alt-downloads" class="swimlane alt-downloads download-buttons">
+      <div class="buttons">
+        <div class="download">
+          <div class="logo windows"></div>
+          <button class="link-button dlink" data-os="win" id="download-alt-win" aria-label="Windows download" role="link">
+            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code" />
+            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code"
+            /> Windows
+            <small>Windows 8, 10, 11</small>
+          </button>
+    
+          <table class="win-downloads">
+            <tbody>
+              <tr>
+                <td><strong>User Installer</strong></td>
+                <td><a class="dlink platform-link" data-os="win64user" id="download-alt-win64user" href="#" role="link" aria-label="Windows User install 64-bit x64">x64</a></td>
+                <td><a class="dlink platform-link" data-os="win32user" id="download-alt-win32user" href="#" role="link" aria-label="Windows User install 32-bit x86">x86</a></td>
+                <td><a class="dlink platform-link" data-os="win32arm64user" id="download-alt-win32arm64user" href="#" role="link" aria-label="Windows User install Arm64">Arm64</a></td>
+              </tr>
+              <tr>
+                <td><strong>System Installer</strong></td>
+                <td><a class="dlink platform-link" data-os="win64" id="download-alt-win64" href="#" role="link" aria-label="Windows System install 64-bit x64">x64</a></td>
+                <td><a class="dlink platform-link" data-os="win32" id="download-alt-win32" href="#" role="link" aria-label="Windows System install 32-bit x86">x86</a></td>
+                <td><a class="dlink platform-link" data-os="win32arm64setup" id="download-alt-win32arm64setup" href="#" role="link" aria-label="Windows System install Arm64">Arm64</a></td>
+              </tr>
+              <tr>
+                <td><strong>.zip</strong></td>
+                <td><a class="dlink platform-link" data-os="winzip" id="download-alt-winzip" href="#" role="link" aria-label="Windows ZIP 64-bit x64">x64</a></td>
+                <td><a class="dlink platform-link" data-os="win32zip" id="download-alt-win32zip" href="#" role="link" aria-label="Windows ZIP 32-bit x86">x86</a></td>
+                <td><a class="dlink platform-link" data-os="win32arm64zip" id="download-alt-win32arm64zip" href="#" role="link" aria-label="Windows ZIP Arm64">Arm64</a></td>
+              </tr>
+              <tr class='cli-downloads'>
+                <td><strong>CLI</strong></td>
+                <td><a class="dlink platform-link" data-os="wincli" id="download-alt-wincli" href="#" role="link" aria-label="Windows CLI 64-bit x64">x64</a></td>
+                <td><a class="dlink platform-link" data-os="win32cli" id="download-alt-win32cli" href="#" role="link" aria-label="Windows CLI 32-bit x86">x86</a></td>
+                <td><a class="dlink platform-link" data-os="win32arm64cli" id="download-alt-win32arm64cli" href="#" role="link" aria-label="Windows CLI Arm64">Arm64</a></td>
+              </tr>
+            </tbody>
+          </table>
+    
+        </div>
+    
+        <div class="download">
+          <div class="logo linux"></div>
+          <button class="link-button dlink" data-os="linux64_deb" id="download-alt-main-linux64_deb" aria-label="Linux Debian Ubuntu download" role="link">
+            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code" />
+            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code"
+            /> .deb
+            <small>Debian, Ubuntu</small></button>
+          <button class="link-button dlink" data-os="linux64_rpm" id="download-alt-main-linux64_rpm" aria-label="Linux Red Hat Fedora SUSE download" role="link">
+            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code" />
+            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code"
+            /> .rpm
+            <small>Red Hat, Fedora, SUSE</small>
+          </button>
+    
+          <table class="linux-downloads">
+            <tbody>
+              <tr>
+                <td><strong>.deb</strong></td>
+                <td><a class="dlink platform-link" data-os="linux64_deb" id="download-alt-linux64_deb" href="#" role="link" aria-label="Linux Debian Ubuntu 64-bit x64 download">x64</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarmhf_deb" id="download-alt-linuxarmhf_deb" href="#" role="link" aria-label="Linux Debian Ubuntu Arm 32-bit download">Arm32</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarm64_deb" id="download-alt-linuxarm64_deb" href="#" role="link" aria-label="Linux Debian Ubuntu Arm 64-bit download">Arm64</a></td>
+              </tr>
+              <tr>
+                <td><strong>.rpm</strong></td>
+                <td><a class="dlink platform-link" data-os="linux64_rpm" id="download-alt-linux64_rpm" href="#" role="link" aria-label="Linux Red Hat Fedora SUSE 64-bit x64 download">x64</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarmhf_rpm" id="download-alt-linuxarmhf_rpm" href="#" role="link" aria-label="Linux Red Hat Fedora SUSE Arm 32-bit download">Arm32</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarm64_rpm" id="download-alt-linuxarm64_rpm" href="#" role="link" aria-label="Linux Red Hat Fedora SUSE Arm 64-bit download">Arm64</a></td>
+              </tr>
+              <tr>
+                <td><strong>.tar.gz</strong></td>
+                <td><a class="dlink platform-link" data-os="linux64" id="download-alt-linux64" href="#" role="link" aria-label="Linux .tar.gz 64-bit x64 download">x64</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarmhf" id="download-alt-linuxarmhf" href="#" role="link" aria-label="Linux .tar.gz Arm 32-bit download">Arm32</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarm64" id="download-alt-linuxarm64" href="#" role="link" aria-label="Linux .tar.gz Arm 64-bit download">Arm64</a></td>
+              </tr>
+              <tr>
+                <td><strong>Snap</strong></td>
+                <td class="snap-button" colspan="3">
+                  <a class="dlink platform-link" href="https://snapcraft.io/code" target="_blank">Snap Store</a>
+                </td>
+              </tr>
+              <tr class='cli-downloads'>
+                <td><strong>CLI</strong></td>
+                <td><a class="dlink platform-link" data-os="linux64cli" id="download-alt-linux64cli" href="#" role="link" aria-label="Linux .tar.gz 64-bit x64 CLI download">x64</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarmhfcli" id="download-alt-linuxarmhfcli" href="#" role="link" aria-label="Linux .tar.gz Arm 32-bit CLI download">Arm32</a></td>
+                <td><a class="dlink platform-link" data-os="linuxarm64cli" id="download-alt-linuxarm64cli" href="#" role="link" aria-label="Linux .tar.gz Arm 64-bit CLI download">Arm64</a></td>
+              </tr>
+            </tbody>
+          </table>
+    
+        </div>
+        <div class="download">
+          <div class="logo mac"></div>
+          <button class="link-button dlink" data-os="osx" id="download-alt-main-osx" aria-label="Mac Universal Build download" role="link">
+            <img class="download-icon" src="/assets/icons/download.svg" width="18px" height="18px" alt="Download VS Code" />
+            <img class="download-icon-accessible" src="/assets/icons/download-black.svg" width="18px" height="18px" alt="Download VS Code"
+            /> Mac
+            <small>macOS 10.11+</small>
+          </button>
+    
+            <table class="mac-downloads">
+            <tbody>
+              <tr>
+                <td><strong>.zip</strong></td>
+                <td style="padding-left: 3px"><a class="dlink platform-link" data-os="darwinx64" id="download-alt-darwinx64" href="#" role="link" aria-label="Mac for Intel chip download link">Intel chip</a></td>
+                <td style="padding-left: 3px"><a class="dlink platform-link" data-os="darwinarm64" id="download-alt-darwinarm64" href="#" role="link" aria-label="Mac for Apple silicon download link">Apple silicon</a></td>
+                <td style="padding-left: 3px"><a class="dlink platform-link" data-os="osx" id="download-alt-osx" href="#" role="link" aria-label="Mac Universal Build download">Universal</a></td>
+              </tr>
+              <tr class='cli-downloads'>
+                <td><strong>CLI</strong></td>
+                <td style="padding-left: 3px"><a class="dlink platform-link" data-os="darwinx64cli" id="download-alt-darwinx64cli" href="#" role="link" aria-label="Mac CLI for Intel chip download link">Intel chip</a></td>
+                <td style="padding-left: 3px"><a class="dlink platform-link" data-os="darwinarm64cli" id="download-alt-darwinarm64cli" href="#" role="link" aria-label="Mac CLI for Apple silicon download link">Apple silicon</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    
+    </div>
+    
+    <div class="container alt-downloads">
+      <div class="row">
+        <p class="terms text-center">
+          By downloading and using Visual Studio Code, you agree to the <a href="/license">license terms</a> and <a href="https://go.microsoft.com/fwlink/?LinkId=521839">privacy
+            statement</a>.
+        </p>
+      </div>
+    </div>
+    <div class="alt-downloads swimlane-container insiders-callout">
+        <div class="swimlane">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="terms text-center">
+                            <h2>Want new features sooner?</h2>
+                            <p class="call-to-action">Get the <a href="/insiders" id="alt-downloads-insiders">Insiders build</a> instead.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="terms text-center">
+                            <h2>Use <a href="https://vscode.dev" id="alt-downloads-web" target="_blank">vscode.dev</a> for quick edits online!</h2>
+                            <p class="call-to-action">GitHub, Azure Repos, and local files.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <p><a href="/docs/supporting/faq#_previous-release-versions" id="download-previous">Get previous versions</a></p>
+        <div class="sha-table-stable"></div>
+    </div>
+
+</div>
+      </div>
+  </div>
+
+  <footer role="contentinfo">
+      <div class="container">
+          <div class="row">
+              <div class="left col-md-7">
+                  <ul class="links">
+                      <li>
+                          <span class="message">Hello from Seattle.</span>
+                      </li>
+                      <li>
+                          <a href="https://go.microsoft.com/fwlink/?LinkID=533687" onclick="followOnTwitter()" tabindex="0">Follow @code</a>
+                      </li>
+                      <li>
+                          <div class="github-star-button">
+                              <iframe src="/assets/github-button.html?user=Microsoft&repo=vscode&type=star&count=true"
+                                  frameborder="0" scrolling="0" width="130px" height="20px" title="GitHub follow button" loading="lazy"></iframe>
+                          </div>
+                      </li>
+  
+                      <script>
+                          function followOnTwitter() {
+                              var windowFeatures = "location=yes,height=600,width=550,scrollbars=yes,status=yes";
+                              var originalReferer = "&original_referer=" + document.URL;
+                              var screenName = "&screen_name=code";
+                              var URL = "https://twitter.com/intent/follow?" + originalReferer + screenName;
+                              window.open(URL, "_blank", windowFeatures);
+                          }
+  
+                          function manageConsent() {
+                              if(WcpConsent.siteConsent.isConsentRequired){
+                                  WcpConsent.siteConsent.manageConsent();
+                              }
+                          }
+                      </script>
+                  </ul>
+              </div>
+              <div class="right col-md-5">
+                  <ul class="links">
+                      <li><a id="footer-support-link" href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d"
+                              target="_blank">Support</a></li>
+                      <li><a id="footer-privacy-link" href="https://go.microsoft.com/fwlink/?LinkId=521839"
+                              target="_blank">Privacy</a></li>
+                      <li style="display: none;"><a id="footer-cookie-link" style="cursor: pointer;" onclick="manageConsent()"
+                              target="_blank">Manage Cookies</a></li>
+                      <li><a id="footer-terms-link" href="https://www.microsoft.com/legal/terms-of-use"
+                              target="_blank">Terms of Use</a></li>
+                      <li><a id="footer-license-link" href="/License">License</a></li>
+                  </ul>
+                  <div class="copyright">
+                      <a id="footer-microsoft-link" class="logo" href="https://www.microsoft.com">
+                          <img class="microsoft-logo" src="/assets/images/microsoft-logo.png" height="20" alt="Microsoft homepage"/>
+                          <img class="microsoft-logo-inverted" src="/assets/images/microsoft-logo-inverted.png" height="20" alt="Microsoft homepage" />
+                      </a>
+                      <span>&copy; 2023 Microsoft</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="/dist/index.js"></script>
+
+  
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "SoftwareApplication",
+      "name" : "Visual Studio Code",
+      "softwareVersion": "1.80",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "applicationCategory": "DeveloperApplication",
+      "applicationSubCategory": "Text Editor",
+      "alternateName": "VS Code",
+      "datePublished": "2021-11-03",
+      "operatingSystem": "Mac, Linux, Windows",
+      "logo": "https://code.visualstudio.com/assets/apple-touch-icon.png",
+      "screenshot": "https://code.visualstudio.com/assets/home/home-screenshot-win.png",
+      "releaseNotes": "https://code.visualstudio.com/updates",
+      "downloadUrl": "https://code.visualstudio.com/download",
+      "license": "https://code.visualstudio.com/license",
+      "softwareRequirements": "https://code.visualstudio.com/docs/supporting/requirements",
+      "url" : "https://code.visualstudio.com",
+      "author": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "maintainer": {
+        "@type": "Organization",
+        "name": "Microsoft"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://code.visualstudio.com/Search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "sameAs" : [
+        "https://en.wikipedia.org/wiki/Visual_Studio_Code",
+        "https://twitter.com/code",
+        "https://www.youtube.com/code",
+        "https://www.tiktok.com/@vscode",
+        "https://github.com/microsoft/vscode"
+      ]
+    }
+  </script>
+</body>
+</html>	=$ôv‡      d«³Ñd«³ÒEÇ•7d«³Ò   U    O^partitionKey=%28https%2Cvisualstudio.com%29,:https://code.visualstudio.com/download necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 OK
+content-length: 24950
+content-type: text/html; charset=utf-8
+etag: W/"6176-+lJ7c6yMpSeCBzwflau6PO/sTv8"
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff, nosniff
+x-powered-by: ASP.NET
+strict-transport-security: max-age=31536000
+x-cache: CONFIG_NOCACHE
+x-azure-ref: 08MWrZAAAAAAKqCv6OZ/wTr3ZKXtIe0vKU04xRURHRTMxMjEAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
+date: Mon, 10 Jul 2023 08:48:47 GMT
+X-Firefox-Spdy: h2
+ original-response-headers content-length: 24950
+content-type: text/html; charset=utf-8
+etag: W/"6176-+lJ7c6yMpSeCBzwflau6PO/sTv8"
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-content-type-options: nosniff
+x-powered-by: ASP.NET
+strict-transport-security: max-age=31536000
+x-cache: CONFIG_NOCACHE
+x-azure-ref: 08MWrZAAAAAAKqCv6OZ/wTr3ZKXtIe0vKU04xRURHRTMxMjEAYmU4N2RjNmQtNDBmOS00NWIwLTg4MTAtOTkxMDg3ZWY4YjI5
+date: Mon, 10 Jul 2023 08:48:47 GMT
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 701 net-response-time-onstop 738   av

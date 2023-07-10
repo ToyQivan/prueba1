@@ -1,0 +1,171 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/mint/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-cinnamon:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting DESKTOP_SESSION=cinnamon
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting PWD=/home/mint
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=cinnamon
+dbus-update-activation-environment: setting LOGNAME=mint
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/999/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/mint/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/mint
+dbus-update-activation-environment: setting GDM_LANG=en
+dbus-update-activation-environment: setting HOME=/home/mint
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting LANG=C.UTF-8
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=mint
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/999
+dbus-update-activation-environment: setting GTK3_MODULES=xapp-gtk3-module
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/cinnamon:/usr/share/gnome:/home/mint/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting GDMSESSION=cinnamon
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/999/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+** Message: 15:54:52.621: couldn't access control socket: /run/user/999/keyring/control: No such file or directory
+** Message: 15:54:52.623: couldn't access control socket: /run/user/999/keyring/control: No such file or directory
+** Message: 15:54:52.630: couldn't access control socket: /run/user/999/keyring/control: No such file or directory
+** Message: 15:54:54.348: Existing monitor config (/home/mint/.config/cinnamon-monitors.xml) not found at startup. Looking for legacy configuration (monitors.xml)
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+
+** (csd-color:1318): WARNING **: 15:54:56.783: failed to get edid: unable to get EDID for output
+
+** (csd-color:1318): WARNING **: 15:54:56.893: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+[cinnamon-settings-daemon-smartcard] Failed to start: no suitable smartcard driver could be found
+Cjs-Message: 15:55:04.114: Profiler is disabled. Not setting up signals.
+Clutter-Message: 15:55:04.359: Sync method: PRESENTATION TIME
+Cjs-Message: 15:55:08.569: JS LOG: About to start Cinnamon
+
+(nm-applet:1500): libnotify-WARNING **: 15:55:09.445: Failed to connect to proxy
+
+(nm-applet:1500): nm-applet-WARNING **: 15:55:09.452: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+Cjs-Message: 15:55:10.125: JS LOG: [LookingGlass/info] Cinnamon.AppSystem.get_default() started in 1458 ms
+Cjs-Message: 15:55:10.297: JS LOG: [LookingGlass/info] loading user theme: /usr/share/themes/Mint-Y-Dark/cinnamon/cinnamon.css
+Cjs-Message: 15:55:10.722: JS LOG: [LookingGlass/info] added icon directory: /usr/share/themes/Mint-Y-Dark/cinnamon
+cinnamon-session[1171]: WARNING: t+20.37694s: Detected that screensaver has appeared on the bus
+Cjs-Message: 15:55:13.051: JS LOG: [LookingGlass/info] loaded at Tue Jul 04 2023 15:55:12 GMT+0000 (Coordinated Universal Time)
+Cjs-Message: 15:55:13.059: JS LOG: Cinnamon started at Tue Jul 04 2023 15:55:12 GMT+0000 (Coordinated Universal Time)
+Cjs-Message: 15:55:13.204: JS LOG: [LookingGlass/info] ExtensionSystem started in 4 ms
+Cjs-Message: 15:55:13.206: JS LOG: [LookingGlass/info] NaNms
+Cjs-Message: 15:55:13.206: JS LOG: [LookingGlass/info] SearchProviderManager started in 6 ms
+openGL version 3.3 detected (GL3 Cogl Driver)
+MetaSyncRing disabled: couldn't find required GL extensions, or the minimum safe openGL version was not met
+Cjs-Message: 15:55:13.756: JS LOG: [LookingGlass/info] Installing settings for show-desktop@cinnamon.org
+Cjs-Message: 15:55:13.762: JS LOG: [LookingGlass/info] Settings successfully installed for show-desktop@cinnamon.org
+Cjs-Message: 15:55:13.970: JS LOG: [LookingGlass/info] Loaded applet show-desktop@cinnamon.org in 455 ms
+Cjs-Message: 15:55:13.980: JS LOG: [LookingGlass/info] Role locked: tray
+Cjs-Message: 15:55:14.015: JS LOG: [LookingGlass/info] Loaded applet systray@cinnamon.org in 45 ms
+Cjs-Message: 15:55:14.064: JS LOG: [LookingGlass/info] Loaded applet removable-drives@cinnamon.org in 49 ms
+Cjs-Message: 15:55:14.073: JS LOG: [LookingGlass/info] Installing settings for favorites@cinnamon.org
+Cjs-Message: 15:55:14.073: JS LOG: [LookingGlass/info] Settings successfully installed for favorites@cinnamon.org
+Cjs-Message: 15:55:14.112: JS LOG: [LookingGlass/info] Loaded applet favorites@cinnamon.org in 48 ms
+St-Message: 15:55:14.170: cogl npot texture sizes SUPPORTED
+Cjs-Message: 15:55:14.181: JS LOG: [LookingGlass/info] Installing settings for notifications@cinnamon.org
+Cjs-Message: 15:55:14.181: JS LOG: [LookingGlass/info] Settings successfully installed for notifications@cinnamon.org
+Cjs-Message: 15:55:14.235: JS LOG: [LookingGlass/info] Role locked: notifications
+Cjs-Message: 15:55:14.339: JS LOG: [LookingGlass/info] Loaded applet notifications@cinnamon.org in 227 ms
+Cjs-Message: 15:55:14.365: JS LOG: [LookingGlass/info] Installing settings for printers@cinnamon.org
+Cjs-Message: 15:55:14.365: JS LOG: [LookingGlass/info] Settings successfully installed for printers@cinnamon.org
+Cjs-Message: 15:55:14.431: JS LOG: [LookingGlass/info] Loaded applet printers@cinnamon.org in 85 ms
+Cjs-Message: 15:55:14.541: JS LOG: [LookingGlass/info] Loaded applet keyboard@cinnamon.org in 99 ms
+Cjs-Message: 15:55:14.571: JS LOG: [LookingGlass/info] Installing settings for calendar@cinnamon.org
+Cjs-Message: 15:55:14.571: JS LOG: [LookingGlass/info] Settings successfully installed for calendar@cinnamon.org
+Cjs-Message: 15:55:14.913: JS LOG: [LookingGlass/info] Loaded applet calendar@cinnamon.org in 372 ms
+Cjs-Message: 15:55:14.965: JS LOG: [LookingGlass/info] Loaded applet xapp-status@cinnamon.org in 26 ms
+Cjs-Message: 15:55:15.330: JS LOG: [LookingGlass/info] Installing settings for power@cinnamon.org
+Cjs-Message: 15:55:15.331: JS LOG: [LookingGlass/info] Settings successfully installed for power@cinnamon.org
+Cjs-Message: 15:55:15.456: JS LOG: [LookingGlass/info] Loaded applet power@cinnamon.org in 491 ms
+Cjs-Message: 15:55:15.524: JS LOG: [LookingGlass/info] Installing settings for grouped-window-list@cinnamon.org
+Cjs-Message: 15:55:15.525: JS LOG: [LookingGlass/info] Settings successfully installed for grouped-window-list@cinnamon.org
+Cjs-Message: 15:55:15.660: JS LOG: [LookingGlass/info] Role locked: panellauncher
+
+** (csd-color:1318): WARNING **: 15:55:15.803: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+
+** (csd-color:1318): WARNING **: 15:55:15.812: unable to get EDID for xrandr-Virtual1: unable to get EDID for output
+** Message: 15:55:15.867: nemo-desktop: session is cinnamon, establishing proxy
+Cjs-Message: 15:55:16.114: JS LOG: [LookingGlass/info] Loaded applet grouped-window-list@cinnamon.org in 618 ms
+Cjs-Message: 15:55:16.196: JS LOG: [LookingGlass/info] Adding XAppStatusIcon: nm-applet (:1.49/org/x/StatusIcon/Icon)
+Cjs-Message: 15:55:16.475: JS LOG: [LookingGlass/info] Installing settings for sound@cinnamon.org
+
+** (csd-power:1340): CRITICAL **: 15:55:16.495: abs_to_percentage: assertion 'max > min' failed
+Cjs-Message: 15:55:16.507: JS LOG: [LookingGlass/info] Settings successfully installed for sound@cinnamon.org
+Cjs-Message: 15:55:16.696: JS LOG: [LookingGlass/info] Loaded applet sound@cinnamon.org in 582 ms
+Cjs-Message: 15:55:17.006: JS LOG: [LookingGlass/info] Hiding XAppStatusIcon (we have an applet): nm-applet (:1.49/org/x/StatusIcon/Icon)
+Cjs-Message: 15:55:17.038: JS LOG: [LookingGlass/info] Installing settings for network@cinnamon.org
+Cjs-Message: 15:55:17.056: JS LOG: [LookingGlass/info] Settings successfully installed for network@cinnamon.org
+Cjs-Message: 15:55:17.103: JS LOG: [LookingGlass/info] Loaded applet network@cinnamon.org in 369 ms
+Cjs-Message: 15:55:17.419: JS LOG: Unknown network device type, is 14
+Cjs-Message: 15:55:17.575: JS LOG: [LookingGlass/info] Installing settings for menu@cinnamon.org
+Cjs-Message: 15:55:17.576: JS LOG: [LookingGlass/info] Settings successfully installed for menu@cinnamon.org
+Cjs-Message: 15:55:18.136: JS LOG: [LookingGlass/info] Loaded applet menu@cinnamon.org in 1032 ms
+Cjs-Message: 15:55:18.138: JS LOG: [LookingGlass/info] AppletManager started in 5077 ms
+Cjs-Message: 15:55:18.151: JS LOG: [LookingGlass/info] Cinnamon took 9581 ms to start
+VMware: vmw_ioctl_command error Cannot allocate memory.
+cinnamon-session[1171]: WARNING: t+30.36823s: Detected that screensaver has left the bus
+Unable to open desktop file /usr/share/applications/caja-browser.desktop for panel launcher: No such file or directory
+Unable to open desktop file /usr/share/applications/mate-terminal.desktop for panel launcher: No such file or directory
+
+(metacity:1683): metacity-WARNING **: 15:55:38.034: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 15:56:00.948: last_user_time (3279831) is greater than comparison timestamp (96736). This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW. Trying to work around...
+
+(metacity:1683): metacity-WARNING **: 15:56:00.948: 0x3400003 (Bottom Panel) appears to be one of the offending windows with a timestamp of 3279831. Working around...
+cinnamon-screensaver: no process found
+mate-screensaver: no process found
+light-locker: no process found
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+(metacity:1683): metacity-WARNING **: 06:57:41.249: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 06:57:41.654: last_user_time (3279831) is greater than comparison timestamp (2099263). This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW. Trying to work around...
+
+(metacity:1683): metacity-WARNING **: 06:57:41.654: 0x3400003 (Bottom Panel) appears to be one of the offending windows with a timestamp of 3279831. Working around...
+
+(metacity:1683): metacity-WARNING **: 06:57:42.292: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 06:57:42.295: last_user_time (3279831) is greater than comparison timestamp (2099902). This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW. Trying to work around...
+
+(metacity:1683): metacity-WARNING **: 06:57:42.295: 0x3400003 (Bottom Panel) appears to be one of the offending windows with a timestamp of 3279831. Working around...
+
+(metacity:1683): metacity-WARNING **: 06:57:43.671: last_user_time (3279831) is greater than comparison timestamp (2101281). This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW. Trying to work around...
+
+(metacity:1683): metacity-WARNING **: 06:57:43.671: 0x3400003 (Bottom Panel) appears to be one of the offending windows with a timestamp of 3279831. Working around...
+
+(nm-applet:1500): nm-applet-WARNING **: 07:10:46.145: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(nm-applet:1500): nm-applet-WARNING **: 07:10:46.680: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+(metacity:1683): metacity-WARNING **: 07:14:41.542: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 07:14:43.217: last_user_time (3279831) is greater than comparison timestamp (3120826). This most likely represents a buggy client sending inaccurate timestamps in messages such as _NET_ACTIVE_WINDOW. Trying to work around...
+
+(metacity:1683): metacity-WARNING **: 07:14:43.217: 0x3400003 (Bottom Panel) appears to be one of the offending windows with a timestamp of 3279831. Working around...
+
+(nm-applet:1500): nm-applet-WARNING **: 07:19:20.144: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(nm-applet:1500): nm-applet-WARNING **: 07:19:20.670: Failed to show notification: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+
+(mate-panel:1685): Gtk-CRITICAL **: 07:34:08.226: gtk_widget_destroy: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(metacity:1683): metacity-WARNING **: 09:00:36.777: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 09:01:49.568: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+ATTENTION: default value of option mesa_glthread overridden by environment.
+
+(metacity:1683): metacity-WARNING **: 09:25:03.141: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
+
+(metacity:1683): metacity-WARNING **: 09:27:58.307: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x5200011 (mintMenu.py)
