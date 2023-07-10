@@ -65,7 +65,7 @@ user_pref("distribution.mint-001.bookmarksProcessed", true);
 user_pref("doh-rollout.balrog-migration-done", true);
 user_pref("doh-rollout.doneFirstRun", true);
 user_pref("doh-rollout.home-region", "MX");
-user_pref("dom.push.userAgentID", "76339e12583d4702b350ed23b25f2d89");
+user_pref("dom.push.userAgentID", "1d952a6521fa4e8086cc91e9061a9714");
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.databaseSchema", 33);
